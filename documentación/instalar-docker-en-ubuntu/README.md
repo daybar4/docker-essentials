@@ -64,3 +64,25 @@ id -nG
 Output
 sammy sudo docker
 ```
+
+## Cómo instalar y usar Docker Compose en Ubuntu
+Introducción
+> Docker simplifica el proceso de administración de los procesos de las aplicaciones en contenedores. Aunque los contenedores son similares a las máquinas virtuales de cierta forma, son más ligeros y más sencillos en cuanto a recursos. Esto permite a los desarrolladores desglosar un entorno de aplicación en varios servicios aislados.
+
+> Para las aplicaciones que dependen de varios servicios, organizar todos los contenedores para que se inicien, comuniquen y se apaguen juntos puede convertirse rápidamente en algo difícil de manejar. Docker Compose es una herramienta que le permite ejecutar entornos de aplicación multi contenedor según las definiciones establecidas en un archivo YAML. Se utilizan definiciones de servicio para crear entornos totalmente personalizables con varios contenedores que pueden compartir redes y volúmenes de datos.
+
+> En esta guía, mostraremos cómo instalar Docker Compose en un servidor Ubuntu
+
+##### Instalar Docker Compose
+Para asegurarnos de que obtenemos la versión estable más reciente de Docker Compose, descargaremos este software de su repositorio oficial de Github.
+
+Primero, confirmamos la versión más reciente disponible en su página de versiones. En el momento de escribir este artículo, la versión estable más reciente es v2.11.2: https://github.com/docker/compose/releases
+
+```
+sudo apt install docker-compose
+```
+
+Para verificar que la instalación se realizó correctamente:
+```
+docker-compose --version
+```
