@@ -34,12 +34,15 @@ git clone -b branch git@github.com:daybar4/docker-essentials-1.git ./destino
 ```
 
 ## Subir un cambio
+Se detecta un cambio en el repositorio local.
 ```
 git add .
 ```
+Hacemos un comit, captura una instantánea de los cambios preparados en ese momento del proyecto.
 ```
 git commit -m 'mensaje'
 ```
+Cargar contenido del repositorio local a un repositorio remoto.
 ```
 git push
 ```
