@@ -32,3 +32,14 @@ Y eso es todo. Ya puedes clonar repositorios mediante llaves SSH sin ningún tip
 ```
 git clone -b branch git@github.com:daybar4/docker-essentials-1.git ./destino
 ```
+
+## Subir un cambio
+```
+git add .
+```
+```
+git commit -m 'mensaje
+```
+```
+git push
+```
