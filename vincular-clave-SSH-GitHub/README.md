@@ -38,7 +38,7 @@ git clone -b branch git@github.com:daybar4/docker-essentials-1.git ./destino
 git add .
 ```
 ```
-git commit -m 'mensaje
+git commit -m 'mensaje'
 ```
 ```
 git push
