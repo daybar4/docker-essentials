@@ -1,4 +1,9 @@
 ## _// Tutorial //_ ##
+
+# MAINTAINER
+- Name: David Aybar
+- Email: daybar4@gmail.com
+
 ## Cómo instalar y usar Docker en Ubuntu
 Introducción
 > Docker es una aplicación que simplifica el proceso de administración de procesos de aplicación en contenedores. Los contenedores le permiten ejecutar sus aplicaciones en procesos con aislamiento de recursos. Son similares a las máquinas virtuales, pero los contenedores son más portátiles, más flexibles con los recursos y más dependientes del sistema operativo host.
@@ -7,7 +12,7 @@ Introducción
 
 [DockerHUb] - https://hub.docker.com/
 
-##### Instalación
+### Instalación
 Primero, actualizar la lista de paquetes existente:
 ```
 sudo apt update
@@ -38,7 +43,7 @@ Con esto, Docker quedará instalado, el demonio(servicio) se iniciará y el proc
 sudo systemctl status docker
 ```
 
-##### Ejecutar el comando Docker sin sudo
+### Ejecutar el comando Docker sin sudo
 Por defecto, el comando docker solo puede ser ejecutado por el usuario root o un usuario del grupo docker, que se crea automáticamente durante el proceso de instalación de Docker. Si intentas ejecutar el comando docker sin sudo como prefijo o sin formar parte del grupo docker, obtendrás un resultado como este:
 
 ```
@@ -73,7 +78,7 @@ Introducción
 
 > En esta guía, mostraremos cómo instalar Docker Compose en un servidor Ubuntu
 
-##### Instalar Docker Compose
+### Instalar Docker Compose
 Para asegurarnos de que obtenemos la versión estable más reciente de Docker Compose, descargaremos este software de su repositorio oficial de Github.
 
 Primero, confirmamos la versión más reciente disponible en su página de versiones. En el momento de escribir este artículo, la versión estable más reciente es v2.11.2: https://github.com/docker/compose/releases

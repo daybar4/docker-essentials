@@ -1,12 +1,17 @@
 ## _// Tutorial //_ ##
+
+# MAINTAINER
+- Name: David Aybar
+- Email: daybar4@gmail.com
+
 ## Cómo vincular clave SSH a GitHub
 > Crear una llave SSH no solo es la forma más rápida de trabajar con tus repositorios en GitHub, es también la forma más segura y recomendada en los entornos de desarrollo profesionales.
 
-##### ¿Que es una llave SSH?
+### ¿Que es una llave SSH?
 Una llave SSH es una clave que te permitirá autenticarte ante un servicio, en este caso, GitHub. Por lo general vienen 2 llaves: una pública y una privada. Con la pública puedes enviar y recibir información cifrada de la web, mientras que con la privada puedes descifrar esa información para poder su contenido.
 _Nunca compartir una clave privada_
 
-##### ¿Cómo crear un llave SSH?
+### ¿Cómo crear un llave SSH?
 Para crear una llave SSH, simplemente ejecuta este comando:
 ``` 
 ssh-keygen
@@ -17,7 +22,7 @@ ssh-keygen -t rsa -b 4069
 ```
 No incluir passphrase
 
-##### Vincular llave SSH con GitHub
+### Vincular llave SSH con GitHub
 
 Para poder vincular la llave SSH con tu cuenta de GitHub debes ir a:
 Tu perfil (click en tu avatar) -> Opción settings -> En la barra izquierda seleccionas la opción SHH Keys and GPG Keys
@@ -33,7 +38,7 @@ Y eso es todo. Ya puedes clonar repositorios mediante llaves SSH sin ningún tip
 git clone -b branch git@github.com:daybar4/docker-essentials-1.git ./destino
 ```
 
-## Subir un cambio
+### Subir un cambio
 Se detecta un cambio en el repositorio local.
 ```
 git add .
