@@ -28,7 +28,6 @@ cd <to-project-directory>
 ### Generamos archivos docker-compose.yml, .env
 ```
 cp docker-compose.yml.dist docker-compose.yml
-cp .env.dist .env
 ```
 
 Con el archivo docker-compose.yml implementado, ahora podemos ejecutar Docker Compose para mostrar nuestro entorno. El siguiente comando descargará las imágenes Docker necesarias, creará un contenedor para el servicio web y ejecutará el entorno en contenedor en modo segundo plano:
