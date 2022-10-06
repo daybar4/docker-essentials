@@ -52,5 +52,5 @@ Cargar contenido del repositorio local a un repositorio remoto.
 git push
 ```
 
-## Aplicación diseñada para ayudar a los principiantes a manejar los conceptos que hay detrás del trabajo con ramas (branches) en Git.
+Aplicación diseñada para ayudar a los principiantes a manejar los conceptos que hay detrás del trabajo con ramas (branches) en Git.
 `https://learngitbranching.js.org/?locale=es_ES`
