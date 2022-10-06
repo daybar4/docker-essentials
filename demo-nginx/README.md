@@ -15,6 +15,9 @@
 
 ## Proceso de instalación
 
+Se expondrán los siguientes puertos:
+- 80: Nginx TCP HTTP
+
 ### Clonemos el proyecto git al directorio actual
 ```
 git clone <url-to-git-project>
