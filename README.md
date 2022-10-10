@@ -1,5 +1,5 @@
 ## Docker Essentials
-Learn about docker and deploy a docker nginx
+Learn about docker and deploy a nginx container
 
 # MAINTAINER
 - Name: David Aybar
