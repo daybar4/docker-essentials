@@ -74,6 +74,11 @@ id -nG
 Output
 sammy sudo docker
 ```
+Si no aparece el grupo docker:
+```
+sudo usermod -aG docker username
+```
+En última instancia reiniciar.
 
 ## Cómo instalar y usar Docker Compose en Ubuntu
 Introducción
