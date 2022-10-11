@@ -31,3 +31,5 @@ Acciones/Programas preinstalados:
 Ejecutar Oracle VM VirtualBox Administrador
 - Archivo > Importar y seleccionar ubuntu-desktop-22lts.ova
 - Opciones por default, excepto ubicación del disco lcoal y politica de dirección MAC: "Generar nuevas direcciones MAC para todos los adaptadores de red"
+
+Una vez importada, podemos ampliar RAM o CPU.
