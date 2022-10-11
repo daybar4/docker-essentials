@@ -9,8 +9,8 @@
 - Habilitar virtualización en la BIOS del host
 - 20GB de espacio local
 
-Descargar e instalar VirtualBox, programa de virtualización: https://www.virtualbox.org/wiki/Downloads
-Descargar OVA: https://drive.google.com/drive/folders/1c-VrDB5uI__LdvtQIvAOHo10MKVHyqbg?usp=sharing
+- Descargar e instalar VirtualBox, programa de virtualización: https://www.virtualbox.org/wiki/Downloads
+- Descargar OVA: https://drive.google.com/drive/folders/1c-VrDB5uI__LdvtQIvAOHo10MKVHyqbg?usp=sharing
 ```
 Usuario: user
 Contraseña: user
