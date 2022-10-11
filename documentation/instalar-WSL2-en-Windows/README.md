@@ -41,6 +41,7 @@ Comprobar la ejecución de los comandos docker y docker-compose.
 ### Instalación de Terminal Windows (opcional, recomendable)
 (apartado de links /windows/terminal/install)
 Una vez instalado, en la configuración recomiendo cambiar inicio automático de Ubuntu.
-Configuración > Inicio > Perfil predeterminado > Ubuntu
+- Configuración > Inicio > Perfil predeterminado > Ubuntu
+
 También iniciar ubuntu con permisos de administrador.
-Configuración > Ubuntu > Ejecutar este perfil como Administrador
+- Configuración > Ubuntu > Ejecutar este perfil como Administrador
