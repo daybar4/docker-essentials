@@ -25,6 +25,8 @@ Links:
 
 Después de instalar Docker Desktop ir a configuración > Resources > WSL Integration y habilitar integración y distros adicionales.
 
+### Encender siempre Docker Desktop antes que WSL2 para que WSL2 pueda acceder a docker desktop backend, si encendemos antes WSL2 los comandos docker no funcionarán.
+
 ### Habilitar WSL 2 en Windows
 Abrir características de Windows.
 Seleccionar e instalar "Subsistema de Windows para Linux" y "Plataforma de máquina virtual"
