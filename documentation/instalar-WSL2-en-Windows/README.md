@@ -18,11 +18,12 @@ Links:
 - https://learn.microsoft.com/es-es/windows/terminal/install
 
 ### Prerequisitos
-Antes de instalar Docker Desktop WSL 2 backend:
-- Instalar Windows 10 version 1903 o superior
-- Instalar Windows 11
+- Instalar Windows 10 version 1903 o superior o Instalar Windows 11
+- Instalar Docker Desktop
 - Habilitar WSL 2 en Windows
 - Descargar e instalar el paquete de Linux kernet update (apartado de links wsl_update_x64.msi)
+
+Después de instalar Docker Desktop ir a configuración > Resources > WSL Integration y habilitar integración y distros adicionales.
 
 ### Habilitar WSL 2 en Windows
 Abrir características de Windows.
