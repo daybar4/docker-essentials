@@ -8,16 +8,16 @@
 ## Trabajar con docker-compose.yml
 > El archivo docker-compose.yml normalmente comienza con la definición de la versión. Esto indicará a Docker Compose qué versión de la configuración estamos usando.
 
-> Luego tenemos el bloque services, donde configuramos los servicios que son parte de este entorno. En nuestro caso, tenemos un único servicio llamado web. Este servicio utiliza la imagen nginx:alpine y establece una redirección de puerto con la directiva ports. Todas las solicitudes en el puerto 8000 del equipo host (el sistema desde el cual está ejecutando Docker Compose) serán redirigidas al contenedor web en el puerto 80, donde se ejecutará Nginx.
+> Luego tenemos el bloque services, donde configuramos los servicios que son parte de este entorno. En nuestro caso, tenemos un único servicio llamado web. Este servicio utiliza la imagen httpd:2.4 y establece una redirección de puerto con la directiva ports. Todas las solicitudes en el puerto 8000 del equipo host (el sistema desde el cual está ejecutando Docker Compose) serán redirigidas al contenedor web en el puerto 80, donde se ejecutará apache.
 
-> La directiva volumes creará un volumen compartido entre el equipo host y el contenedor. Esto compartirá la carpeta app local con el contenedor, y el volumen se ubicará en /usr/share/nginx/html dentro del contenedor, que luego sobreescribirá la raíz predeterminada del documento para Nginx.
+> La directiva volumes creará un volumen compartido entre el equipo host y el contenedor. Esto compartirá la carpeta app local con el contenedor, y el volumen se ubicará en /usr/local/apache2/htdocs dentro del contenedor, que luego sobreescribirá la raíz predeterminada del documento para apache.
 
 > Hemos creado una página demo y un archivo docker-compose.yml para crear un entorno de servidor web en contenedor que lo presentará. En el siguiente paso, abriremos este entorno con Docker Compose.
 
 ## Proceso de instalación
 
 Se expondrán los siguientes puertos:
-- 80: Nginx TCP HTTP
+- 8000: Apache TCP HTTP
 
 ### Clonemos el proyecto git al directorio actual
 ```
@@ -49,7 +49,7 @@ curl http://localhost:8000/
 El volumen compartido que se ha configurado en el archivo docker-compose.yml mantiene los archivos de la carpeta app sincronizados con la raíz del documento del contenedor. Si se realiza algún cambio al archivo index.html, serán recogidos automáicamente por el contenedor y se reflejarán en el navegador cuando vuelva a cargar la página.
 
 ### Familiarizarse con los comandos de Docker Compose
-Comando de docker-compose que se utiliza para verificar los registros producidos por el contenedor Nginx, usar el comando logs:
+Comando de docker-compose que se utiliza para verificar los registros producidos por el contenedor httpd, usar el comando logs:
 ```
 docker-compose logs 
 ```
@@ -107,4 +107,4 @@ docker exec mysql bash -c 'printenv'
 ```
 
 ## Links
-`https://hub.docker.com/_/nginx/tags`
+`https://hub.docker.com/_/httpd/tags`

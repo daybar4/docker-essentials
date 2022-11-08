@@ -1,8 +1,8 @@
 version: '3.7'
 services:
   web:
-    image: nginx:alpine
+    image: httpd:2.4
     ports:
       - "8000:80"
     volumes:
-      - ./app:/usr/share/nginx/html
+      - ./app:/usr/local/apache2/htdocs
