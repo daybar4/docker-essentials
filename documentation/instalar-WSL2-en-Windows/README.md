@@ -42,7 +42,7 @@ wsl --set-version Ubuntu 2 ### Definir Ubuntu WSL2
 Comprobar la ejecución de los comandos docker y docker-compose.
 
 ### Instalación de Terminal Windows (opcional, recomendable)
-(apartado de links /windows/terminal/install)
+(Instalar software apartado de links /windows/terminal/install https://learn.microsoft.com/es-es/windows/terminal/install)
 Una vez instalado, en la configuración recomiendo cambiar inicio automático de Ubuntu.
 - Configuración > Inicio > Perfil predeterminado > Ubuntu
 
